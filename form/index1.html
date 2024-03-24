@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .flex {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex">
+            <form action="">
+                <label for="name">
+                    Name
+                    <input type="text" name="name" id="name" placeholder="name" />
+                </label>
+                <label for="number">
+                    Phone number
+                    <input
+                        type="tel"
+                        name="number"
+                        id="number" placeholder="phone number"  />
+                </label>
+                <label for="message">
+                    Message
+                    <input
+                        type="text"
+                        name="message"
+                        id="message" placeholder="message" />
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <script src="./form.js"></script>
+    </body>
+</html>

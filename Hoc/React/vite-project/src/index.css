@@ -1,0 +1,20 @@
+.Json {
+    background-color: bisque;
+}
+.pagination-back {
+    background-color: blueviolet;
+}
+.search {
+    background-color: blue;
+}
+.pagination {
+    display: flex;
+    gap: 5px;
+}
+.checkBoxes {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
